@@ -24,7 +24,6 @@ public class User {
 	
 	public Integer getId() {
 		return id;
-		//jhsdbfckjhbds
 	}
 	public void setId(Integer id) {
 		this.id = id;
