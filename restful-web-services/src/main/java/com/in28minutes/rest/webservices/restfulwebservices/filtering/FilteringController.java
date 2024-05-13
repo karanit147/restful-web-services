@@ -27,7 +27,7 @@ public class FilteringController {
 		mappingJacksonValue.setFilters(filters);
 		
 		return mappingJacksonValue;
-	}  
+	}
 	
 	@GetMapping("/filtering-list") //Serialization - dynamic filtering - return only field2, field3
 	public MappingJacksonValue filteringList() {
